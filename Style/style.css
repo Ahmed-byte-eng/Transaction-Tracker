@@ -1,0 +1,85 @@
+@media (max-width: 600px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .balanceDisplay {
+        background-color: #b91db9;
+        color: white;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 7px;
+    }
+    .incomeExpense {
+        display: flex;
+    }
+    .incomeDisplay, .expenseDisplay {
+        margin: 5px;
+        border-radius: 7px;
+        border: 3px ridge #b91db9;
+        padding: 7px 51px 7px 51px;
+        overflow: auto;
+    }
+    h2 {
+        margin: 3px 0px 3px 5px;
+        font-weight: normal;
+        font-size: 20px;
+        text-align: center;
+    }
+    ul {
+        overflow: scroll;
+        margin: 5px;
+        background-color: #b91db9;
+        border-radius: 7px;
+        height: 350px;
+    }
+    li {
+        color: white;
+    }
+    label[for="expense"], label[for="income"] {
+        text-align: center;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 60px 11px 60px;
+        border-radius: 7px;
+    }
+    label[for="expense"]:hover, label[for="income"]:hover {
+        background-color: #8e878e;
+        transition-property: all;
+        transition-duration: 0.25s;
+        transition-timing-function: linear;
+    }
+    .selection input {
+        display: none;
+    }
+    .selection {
+        background-color: #f1ecec;
+        margin: 7px 5px 7px 5px;
+        border-radius: 7px;
+        padding: 10px;
+    }
+    .transactionInput label, .transactionInput input {
+        margin: 5px;
+    }
+    #date {
+        width: 125px;
+    }
+    #price {
+        width: 131px;
+    }
+    #item {
+        width: 341px;
+    }
+    #submit {
+        background-color: #b91db9;
+        border-radius: 7px;
+        align-items: center;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        width: 405px;
+        height: 35px;
+        font-size: 15px;
+    }
+}
