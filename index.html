@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <div class="balanceDisplay">
+      <p>Balance: <span id="balanceSpan">$</span></p>
+    </div>
+    <div class="incomeExpense">
+      <div class="expenseDisplay">
+        <p>Expenses: <span id="expensesSpan">$</span></p>
+      </div>
+      <div class="incomeDisplay">
+        <p>Income: <span id="incomeSpan">$</span></p>
+      </div>
+    </div>
+    <div class="transactions">
+      <h2>Transactions</h2>
+      <ul></ul>
+    </div>
+    <div class="transactionInput">
+      <div class="selection">
+        <label for="expense">Expense</label>
+        <input
+          type="radio"
+          name="transactionType"
+          id="expense"
+          value="expense"
+        />
+        <label for="income">Income</label>
+        <input type="radio" name="transactionType" id="income" value="income" />
+      </div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" />
+      <label for="price">Price:</label>
+      <input type="number" id="price" placeholder="150000" />
+      <br />
+      <label for="item">Item:</label>
+      <input type="text" id="item" placeholder="Car" maxlength="14" />
+      <button id="submit" onclick="addTransaction(); updateBalance()">
+        Submit
+      </button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
