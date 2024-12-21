@@ -1,142 +1,141 @@
 /* Laptop Display */
-@media (max-width: 1600px) {
-    body {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .balanceDisplay {
-        background-color: #b91db9;
-        color: white;
-        margin: 5px;
-        padding: 10px;
-        text-align: center;
-        border-radius: 7px;
-        font-size: 20px;
-    }
-    .incomeExpense {
-        display: flex;
-    }
-    .incomeDisplay, .expenseDisplay {
-        margin: 5px;
-        border-radius: 7px;
-        border: 3px ridge #b91db9;
-        padding: 10px 327px 10px 327px;
-        overflow: auto;
-        font-size: 20px;
-    }
-    h2 {
-        margin: 3px 0px 3px 5px;
-        font-weight: normal;
-        font-size: 25px;
-        text-align: center;
-    }
-    ul {
-        overflow: scroll;
-        margin: 5px;
-        background-color: #b91db9;
-        border-radius: 7px;
-        height: 350px;
-    }
-    li {
-        color: white;
-    }
-    .selection {
-        display: flex;
-        justify-content: center;
-        background-color: #f1ecec;
-        margin: 5px;
-        border-radius: 7px;
-        padding: 0px;
-    }
-    label[for="expense"], label[for="income"] {
-        text-align: center;
-        font-size: 20px;
-        padding: 10px 300px 11px 300px;
-        border-radius: 7px;
-    }
-    label[for="expense"]:hover, label[for="income"]:hover {
-        background-color: #8e878e;
-        transition-property: all;
-        transition-duration: 0.25s;
-        transition-timing-function: linear;
-    }
-    .selection input {
-        display: none;
-    }
-    .transactionInput label, .transactionInput input {
-        margin: 5px;
-    }
-    label[for="date"], label[for="price"], label[for="item"] {
-        font-size: 20px;
-    }
-    #date {
-        width: 682px;
-        margin-right: 0px;
-        border-radius: 7px;
-        border: 1px outset black;
-    }
-    #price {
-        width: 682px;
-        margin-right: 0px;
-        border-radius: 7px;
-        border: 1px outset black;
-    }
-    #item {
-        width: 1446px;
-        margin-right: 0px;
-        border-radius: 7px;
-        border: 1px outset black;
-    }
-    #submit {
-        background-color: #b91db9;
-        border-radius: 7px;
-        align-items: center;
-        color: white;
-        margin: 3px 5px 5px 5px;
-        padding: 5px;
-        width: 1525px;
-        height: 35px;
-        font-size: 20px;
-    }
-    #listItem {
-        display: flex;
-        flex-direction: row;
-        margin: 5px;   
-    }
-    li {
-        padding-top: 5px;
-        width: 1425px;
-    }
-    #itemDisplay {
-        color: white;
-        font-size: 30px;
-    }
-    #dateDisplay {
-        opacity: 0.5;
-        font-size: 14px;
-    }
-    #priceExpenseSpan {
-        font-size: 30px;
-        padding-left: 35%;
-        color: #e87d53;
-    }
-    #priceIncomeSpan {
-        font-size: 30px;
-        padding-left: 35%;
-        color: #64ed4b;
-    }
-    #deleteTransactionButton {
-        display: flex;
-        justify-content: flex-end;
-        background-color: #8e878e;
-        color: black;
-        border-radius: 7px;
-        padding: 4px 7px 3px 7px;
-        margin: 2px;
-        border: none;
-        font-size: 30px;
-    }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.balanceDisplay {
+    background-color: #b91db9;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.incomeExpense {
+    display: flex;
+}
+.incomeDisplay, .expenseDisplay {
+    margin: 5px;
+    border-radius: 7px;
+    border: 3px ridge #b91db9;
+    padding: 10px 327px 10px 327px;
+    overflow: auto;
+    font-size: 20px;
+}
+h2 {
+    margin: 3px 0px 3px 5px;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+}
+ul {
+    overflow: scroll;
+    margin: 5px;
+    background-color: #b91db9;
+    border-radius: 7px;
+    height: 350px;
+}
+li {
+    color: white;
+}
+.selection {
+    display: flex;
+    justify-content: center;
+    background-color: #f1ecec;
+    margin: 5px;
+    border-radius: 7px;
+    padding: 0px;
+}
+label[for="expense"], label[for="income"] {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 300px 11px 300px;
+    border-radius: 7px;
+}
+label[for="expense"]:hover, label[for="income"]:hover {
+    background-color: #8e878e;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: linear;
+}
+.selection input {
+    display: none;
+}
+.transactionInput label, .transactionInput input {
+    margin: 5px;
+}
+label[for="date"], label[for="price"], label[for="item"] {
+    font-size: 20px;
+}
+#date {
+    width: 682px;
+    margin-right: 0px;
+    border-radius: 7px;
+    border: 1px outset black;
+}
+#price {
+    width: 670px;
+    margin-right: 0px;
+    border-radius: 7px;
+    border: 1px outset black;
+}
+#item {
+    width: 1446px;
+    margin-right: 0px;
+    border-radius: 7px;
+    border: 1px outset black;
+}
+#submit {
+    background-color: #b91db9;
+    border-radius: 7px;
+    align-items: center;
+    color: white;
+    margin: 3px 5px 5px 5px;
+    padding: 5px;
+    width: 1525px;
+    height: 35px;
+    font-size: 20px;
+}
+#listItem {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;   
+}
+li {
+    padding-top: 5px;
+    width: 1425px;
+}
+#itemDisplay {
+    color: white;
+    font-size: 30px;
+}
+#dateDisplay {
+    opacity: 0.5;
+    font-size: 14px;
+}
+#priceExpenseSpan {
+    font-size: 30px;
+    padding-left: 35%;
+    color: #e87d53;
+}
+#priceIncomeSpan {
+    font-size: 30px;
+    padding-left: 35%;
+    color: #64ed4b;
+}
+#deleteTransactionButton {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #8e878e;
+    color: black;
+    border-radius: 7px;
+    padding: 4px 7px 3px 7px;
+    margin: 2px;
+    border: none;
+    font-size: 30px;
 }
 
 /* Phone Display */
