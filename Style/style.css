@@ -77,7 +77,7 @@ label[for="date"], label[for="price"], label[for="item"] {
     border: 1px outset black;
 }
 #price {
-    width: 670px;
+    width: 645px;
     margin-right: 0px;
     border-radius: 7px;
     border: 1px outset black;
