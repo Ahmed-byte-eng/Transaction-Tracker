@@ -1,6 +1,6 @@
 /* Laptop Display */
 
-@media (max-width: 1600px) {
+@media (min-width: 601px) {
     body {
         margin: 0px;
         padding: 0px;
